@@ -1,0 +1,154 @@
+:root{
+    --fonte-principal: "Poppins";
+    --cor-de-fundo-azul: #3772FF;
+    --azul: #3772FF;
+    --securdaria-verde: #36D6AD;
+    --branco: #ffffff;
+    --terciaria-coral: #FC7071;
+    --cinza-escuro: #737380;
+    --cinza-claro: #BCBCBC;
+
+
+}
+
+
+
+body {
+    background-image: url('/assets/img/Forma1.svg');
+    background-repeat: no-repeat; /*para imagem não repetir*/
+    background-position: top left; /* posição das imagens*/
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    max-height: 100vh;
+}
+
+.patas__cadastro{
+    background-image: url('/assets/img/Patas.svg');
+    background-repeat: no-repeat; /*para imagem não repetir*/
+    background-position: top right;
+    position: absolute;
+    height: 15em;
+    width: 100%;
+
+}
+
+
+.bg-branco{
+    background-color: var(--branco);
+}
+
+.cabecalho{
+    padding: 3em;
+   
+}
+
+.cabecalho__imagem{
+    padding-right: 3.625em;
+}
+
+.forma__cadastro{
+    width: 100%;
+    height: 26em;
+    background-image: url("/assets/img/formaCadastro.svg");
+    background-position: top  left ;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+.cadastro{
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+.cadastro_logo{
+    margin-bottom: 1.5em;
+    
+}
+
+.cadastro__texto{
+    margin-bottom: 1em;
+    color: var(--azul);
+}
+
+.cadastro__conteudo{
+    color: var(--azul);
+    margin: 0 1.5em 1.5em 1.5em;
+}
+
+
+.cadastro__formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 3em;
+    
+}
+
+
+.cadastro__formulario-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0,250em;
+    color: var(--cinza-escuro);
+    
+   
+}
+
+.cadastro__formulario-input{
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin-bottom: 1.5em;
+    width: 80%;
+    padding: 0.5em 0.9em;
+}
+
+.cadastro__formulario-input::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    color: var(--cinza-claro);
+    text-align: center;
+    font-size: 12px;
+
+}
+.botao__cadastrar{
+    align-items: center;
+    background-color: var(--terciaria-coral);
+    color: var(--branco);
+    border-radius: 6px;
+    padding: 0.5em  2em;
+    font-weight: 600;
+    margin-bottom: 7.063em;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--securdaria-verde);
+    position: absolute;
+    width: 100%; 
+}
+
+.rodape__texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 2.5em;
+    color: var(--branco);
+   
+}
+
+/*
+
+
+*/
+
+  
+

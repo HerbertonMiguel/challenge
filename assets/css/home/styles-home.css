@@ -1,0 +1,155 @@
+:root{
+    --fonte-principal: "Poppins";
+    --cor-de-fundo-azul: #3772FF;
+    --azul: #3772FF;
+    --securdaria-verde: #36D6AD;
+    --branco: #ffffff;
+    --terciaria-coral: #FC7071;
+    --cinza-escuro: #737380;
+    --cinza-claro: #BCBCBC;
+
+
+}
+
+
+
+body {
+    background-image: url('/assets/img/Forma1.svg');
+    background-repeat: no-repeat; /*para imagem não repetir*/
+    background-position: top left; /* posição das imagens*/
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    max-height: 100vh;
+}
+
+.bg-branco{
+    background-color: var(--branco);
+}
+
+.cabecalho{
+    padding: 3em;
+   
+}
+
+.cabecalho__imagem{
+    padding-right: 3.625em;
+}
+
+
+.usuario__link-imagem{
+   
+    padding-left: 3.5em;
+}
+
+.forma__cadastro{
+    width: 100%;
+    height: 26em;
+    background-image: url("/assets/img/formaCadastro.svg");
+    background-position: top  left ;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.home{
+    text-align: center;
+    margin-top: 2em;
+    
+}
+
+
+.home__texto{
+    color: var(--azul);
+    margin: 0 6em 2.625em 6em;
+    line-height: 1.5;
+}
+
+.animais{
+    margin-bottom: 1em;
+}
+
+.animais__lista{
+    display: flex;
+    align-items: center;
+    
+}
+
+.animais__lista-conteudo{
+    display: flex;
+    
+}
+
+.animal__imagem{
+    margin-right: 1em;
+    margin-left: 1.5em;
+}
+
+.divisa{
+    display: flex;
+    
+}
+
+.animal__nome{
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    color: var(--azul);
+}
+
+.animal__informacoes{
+    margin: 0 1em 1.875em 0;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: var(--cinza-escuro);
+}
+
+.animal__local{
+    margin-bottom: 0.5em;
+    font-size: 12px;
+    color: var(--cinza-escuro);
+}
+
+.container__contato {
+    display: flex;
+    align-items: center;
+}
+
+.contato__link{
+    display: flex;
+    align-items: center;
+}
+
+.contato__link-imagem{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+    width: 60%;
+    margin-top: 0.3em;
+    
+}
+
+.animal__contato{
+    display: flex;
+    font-size: 10px;
+    color: var(--cinza-escuro);
+    align-items: center;
+
+}
+
+
+
+
+.rodape{
+
+    background: var(--securdaria-verde);
+    width: 100%;
+    
+}
+
+.rodape__texto{
+    text-align: center;
+    padding: 2.5em 2.5em;
+    color: var(--branco);
+   
+}
